@@ -73,7 +73,6 @@ namespace HTMLDecorators {
                 inParameterKey = false,
                 inParameterValue = false,
                 inParameterValueQuotes = false,
-                inParameterValueCounter = 0,
                 afterDecoratorNodeConnection = false,
                 afterDecoratorNodeOpenTag = false,
                 atFollowingClosingTag = false,
@@ -81,6 +80,7 @@ namespace HTMLDecorators {
                 inVariableDefinition = false,
                 inVariableDefinitionNextIsBracket = false;
         int inDecoratorInNameCounter = 0;
+        int inParameterValueCounter = 0;
         stringstream inVariableName {};
 
         for(; i < len; ++i) {

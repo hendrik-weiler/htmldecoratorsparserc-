@@ -25,7 +25,7 @@ namespace HTMLDecorators {
      *
      * @typedef
      */
-    typedef unordered_map<string,int> IdMap;
+    typedef unordered_map<string,short> IdMap;
 
     /**
      * The type for the parameters of a DecoratorDef instance
